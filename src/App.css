@@ -1,0 +1,27 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.cluster-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #f88329;
+  transform: translate(-25%, -25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
